@@ -33,7 +33,6 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Components")
     UStaticMeshComponent* ClimbMesh = nullptr;
-
     // === Climb Control ===
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Climb")
