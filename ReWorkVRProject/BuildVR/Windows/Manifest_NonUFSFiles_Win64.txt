@@ -1,7 +1,7 @@
 ReWorkVRProject/Binaries/Win64/D3D12/D3D12Core.dll	2025-04-24T18:33:09.338Z
 ReWorkVRProject/Binaries/Win64/D3D12/d3d12SDKLayers.dll	2025-04-24T18:33:09.487Z
 ReWorkVRProject/Binaries/Win64/OpenImageDenoise.dll	2025-04-24T18:37:00.342Z
-ReWorkVRProject/Binaries/Win64/ReWorkVRProject-Win64-Shipping.exe	2025-05-27T16:09:52.108Z
+ReWorkVRProject/Binaries/Win64/ReWorkVRProject-Win64-Shipping.exe	2025-06-01T12:35:55.933Z
 ReWorkVRProject/Binaries/Win64/tbb.dll	2025-04-24T18:33:04.859Z
 ReWorkVRProject/Binaries/Win64/tbb12.dll	2025-04-24T18:36:59.634Z
 ReWorkVRProject/Binaries/Win64/tbbmalloc.dll	2025-04-24T18:33:04.862Z
@@ -16,4 +16,4 @@ Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2025-04-24T1
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2025-04-24T18:33:09.495Z
 Engine/Content/Renderer/TessellationTable.bin	2025-04-24T18:34:09.879Z
 Engine/Content/Slate/Cursor/invisible.cur	2025-04-24T18:34:09.915Z
-ReWorkVRProject.exe	2025-05-27T16:10:39.094Z
+ReWorkVRProject.exe	2025-06-01T12:38:03.822Z
