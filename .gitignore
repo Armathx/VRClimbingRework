@@ -1,91 +1,107 @@
-# ========== Unreal Engine Core Folders ==========
+# ============================
+# Unreal Engine - Git Ignore
+# ============================
+
+##################################
+# Ignored Engine-Generated Files
+##################################
+
+# Binaries
 Binaries/
-Build/
-DerivedDataCache/
+
+# Intermediate files
 Intermediate/
+
+# Cache and Derived Data
+DerivedDataCache/
+
+# Saved files (autosaves, local saves, crash logs, etc.)
 Saved/
 
-# ========== Visual Studio ==========
-.vs/
-.vscode/
-*.code-workspace
-*.sln
-*.suo
+# Configs spécifiques à un utilisateur
 *.user
-*.userosscache
+*.userprefs
+*.suo
 *.sdf
 *.opensdf
 *.VC.db
 *.VC.opendb
-*.ipch
-*.dbmdl
-*.log
-*.tlog
-*.obj
+
+# Visual Studio
+.vs/
+*.sln
+*.sln.docstates
+*.csproj
+*.vcxproj*
 *.pdb
 *.idb
-*.aps
-*.ncb
-*.cache
-*.tmp
-*.bak
+*.ipch
+*.obj
+*.log
+*.tlog
 
-# ========== Windows / Build Files ==========
+# Xcode
+*.xcodeproj
+*.xcworkspace
+
+# JetBrains Rider / CLion
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# Backup and autosave
+*.bak
+*.tmp
+*.old
+*.orig
+*.backup
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Crash dumps
+*.dmp
+*.crash
+
+# Unreal auto-generated plugin files
+*.generated.*
+*.generated.cpp
+*.generated.h
+
+# Shader & asset databases
+*.asset
+*.ubulk
+*.umap
+*.uasset
+
+# Ignore build except BuildVR
+Build/
+!BuildVR/
+
+# Ignore Launch configs
+.vscode/
+*.code-workspace
+
+# Ignore compiled binaries
 *.exe
 *.dll
 *.lib
-*.target
-*.target.json
-*.csproj
-*.vcxproj
-*.xcodeproj
-*.xcworkspace
-*.xcconfig
-*.sln.docstates
+*.app
+*.dylib
+*.so
 
-# ========== Unreal Generated Files ==========
-*.manifest
-*.modules
-*.generated.*
-*.gen.cpp
-*.gen.h
-*_generated.*
-*_Bindings.cpp
+# Ignore media cache
+*.mp4
+*.avi
+*.mov
 
-# ========== Cooked & Packaged Builds ==========
-*.pak
-*.sig
-*.chunk
-*.build
-*.cook
-*.archive
-*.obb
-*.apk
-*.ipa
-*.appx
-AppPackages/
-BuildOutput/
-WindowsNoEditor/
-Android_ASTC/
-Android_ETC2/
-Android_DXT/
-LinuxNoEditor/
-MacNoEditor/
-
-# ========== System / Misc ==========
-.DS_Store
-Thumbs.db
-desktop.ini
-*.swp
-*.tmp
-*.~lock.*
-~$*
-
-# ========== Node Modules (if used in UI or tools) ==========
-node_modules/
-
-# ========== Keep Only What Matters ==========
-!Source/
-!Content/
-!Config/
-!*.uproject
+# Ignore lockfiles
+*.lock
